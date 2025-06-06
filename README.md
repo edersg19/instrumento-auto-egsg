@@ -1,12 +1,12 @@
-<img src="images/utng_logo.png"></img>
+<img src="images/utng_logo.png" style="text-align: center;"></img>
 
-<h2><center>Licenciatura en Ingenería en
+<h2 style="text-align: center;">Licenciatura en Ingenería en
 
-Tecnologías de la Información y Comunicación Área Redes Inteligentes y Ciberseguridad</center></h2>
+Tecnologías de la Información y Comunicación Área Redes Inteligentes y Ciberseguridad</h2>
 
-<h3><center>Automatización de Infraestructura Digital I</center></h3>
+<h3 style="text-align: center;">Automatización de Infraestructura Digital I</h3>
 
-<h4><center>Unidad 1. Entornos de desarrollo en la automatización de redes</center></h4>
+<h4 style="text-align: center;">Unidad 1. Entornos de desarrollo en la automatización de redes</h4>
 
 <br>**Docente:** Eric Domenzain Morales
 <br>**Tema:** Instrumento de evaluación
@@ -25,7 +25,7 @@ Tecnologías de la Información y Comunicación Área Redes Inteligentes y Ciber
 # Desarrollo
 ## Descripción de las herramientas utilizadas para automatización
 ### Docker Engine
-<center><img src='images/docker_logo.png' width='75%'></center>
+<img src='images/docker_logo.png' style="text-align: center;" width='75%' >
 
 Docker Engine es una tecnología de creación de contenedores de código abierto para construir y empaquetar aplicaciones en microservicios.
 </img>
