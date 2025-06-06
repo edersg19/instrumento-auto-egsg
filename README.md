@@ -1,4 +1,4 @@
-<img src="utng_logo.png"></img>
+<img src="images/utng_logo.png"></img>
 
 <h2><center>Licenciatura en Ingenería en
 
