@@ -25,7 +25,7 @@ Tecnologías de la Información y Comunicación Área Redes Inteligentes y Ciber
 # Desarrollo
 ## Descripción de las herramientas utilizadas para automatización
 ### Docker Engine
-<img src='images/docker_logo.png' style="text-align: center;" width='50%' >
+<img src='images/docker_logo.png' style="text-align: center;" width='40%' >
 
 Docker Engine es una tecnología de creación de contenedores de código abierto para construir y empaquetar aplicaciones en microservicios.
 </img>
