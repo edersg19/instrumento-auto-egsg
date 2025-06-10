@@ -19,8 +19,32 @@ Tecnologías de la Información y Comunicación Área Redes Inteligentes y Ciber
 
 # Índice
 
+- [Introducción](#introducción)
+- [Desarrollo](#desarrollo)
+  - [Descripción de las herramientas utilizadas para automatización](#descripción-de-las-herramientas-utilizadas-para-automatización)
+    - [Docker Engine](#docker-engine)
+    - [Docker Compose](#docker-compose)
+    - [Docker y Swagger (OpenAPI)](#docker-y-swagger-openapi)
+  - [Procedimiento de instalación](#procedimiento-de-instalación)
+    - [Instalación técnica de herramientas](#instalación-técnica-de-herramientas)
+      - [Visual Studio Code](#visual-studio-code)
+      - [Plugins y extensiones de Visual Studio Code](#plugins-y-extensiones-de-visual-studio-code)
+    - [Instalación técnica de Docker en Ubuntu](#instalación-técnica-de-docker-en-ubuntu)
+    - [Instalación técnica de Git](#instalación-técnica-de-git)
+- [Evidencia de pruebas de verificación](#evidencia-de-pruebas-de-verificación)
+  - [Imagen "hello-world"](#imagen-hello-world)
+  - [Ejecución de un archivo yml](#ejecución-de-un-archivo-yml)
+- [Conclusión](#conclusión)
+- [Bibliografía](#bibliografía)
+
 
 # Introducción
+
+El siguiente documento es un apartado sobre la configuración de entornos de trabajo en sistemas de desarrollo como lo son Docker, Git y Visual Studio Code, donde hay aspectos fundamentales para garantizar la calidad y rapidez en la entrega de proyectos. Herramientas como Docker y Docker Compose han revolucionado la forma en que se construyen, despliegan y administran aplicaciones, permitiendo encapsular dependencias y servicios en contenedores livianos y fácilmente replicables.
+
+Además, está como objetivo guiar en la instalación, configuración y uso básico de estas herramientas en un sistema operativo basado en Linux, específicamente Ubuntu. Además, se incluyen otras utilidades esenciales como Visual Studio Code para la edición de código y Git para el control de versiones, ofreciendo así una base sólida para cualquier desarrollador o equipo que busque implementar buenas prácticas en sus flujos de trabajo.
+
+A lo largo del desarrollo, también se abordará el uso de Swagger como herramienta de documentación de APIs, así como evidencia visual del funcionamiento de los entornos creados, consolidando una visión práctica e integral de un entorno de desarrollo moderno y automatizado.
 
 # Desarrollo
 ## Descripción de las herramientas utilizadas para automatización
