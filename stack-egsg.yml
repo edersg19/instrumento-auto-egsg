@@ -13,7 +13,7 @@ services:
     ports: 
       - 3306:3306
     volumes:
-      - ./dbfiles:/docker-entrypoint-initdb.d
+      - ./dbfiles
     environment:
       MYSQL_ROOT_PASSWORD: qwerty
       MYSQL_DATABASE: sistema_ventas_db
