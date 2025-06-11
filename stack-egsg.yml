@@ -13,7 +13,7 @@ services:
     ports: 
       - 3306:3306
     volumes:
-      - dbfiles
+      - /dbfiles
     environment:
       ROOT_PASSWORD: qwerty
       DATABASE: sistema_ventas_db
