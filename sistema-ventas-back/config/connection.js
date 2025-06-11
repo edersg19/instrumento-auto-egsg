@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = {
     database: {
-        host: 'mysql',
+        host: 'mysql_db',
         port: 3306,
         user: 'admin',
         password: 'admin',
