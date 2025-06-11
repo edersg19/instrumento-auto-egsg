@@ -22,8 +22,8 @@ services:
 
   sistema_ventas_back:
     build:
-      context: ./sistema_ventas_back
-      dockerfile: ./sistema_ventas_back
+      context: ./sistema-ventas-back
+      dockerfile: ./sistema-ventas-back
     image: node:18.17.1-alpine
     container_name: sistema_ventas_back
     ports:
