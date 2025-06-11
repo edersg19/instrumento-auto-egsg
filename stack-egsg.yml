@@ -32,8 +32,7 @@ services:
 
   sistema_ventas_front:
     build:
-      context: ./frontend
-      dockerfile: ./angular
+      context: ./angular
     image: nginx:latest
     container_name: sistema_ventas_front
     ports:
