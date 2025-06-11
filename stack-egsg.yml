@@ -15,10 +15,10 @@ services:
     volumes:
       - /dbfiles
     environment:
-      ROOT_PASSWORD: qwerty
-      DATABASE: sistema_ventas_db
-      USER: admin
-      PASSWORD: admin
+      MYSQL_ROOT_PASSWORD: qwerty
+      MYSQL_DATABASE: sistema_ventas_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
 
   sistema_ventas_back:
     build:
