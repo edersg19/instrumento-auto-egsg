@@ -23,7 +23,6 @@ services:
   sistema_ventas_back:
     build:
       context: ./sistema-ventas-back
-      dockerfile: Dockerfile
     container_name: sistema_ventas_back
     ports:
       - 8080:3000
