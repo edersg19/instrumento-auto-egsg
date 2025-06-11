@@ -1,0 +1,45 @@
+services:
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin:latest
+    ports:
+      - 9090:80
+    environment:
+      PMA_ARBITRARY=1
+
+  mysql:
+    container_name: mysql_db
+    image: mysql:8.0
+    ports: 
+      - 3306:3306
+    volumes:
+      - dbfiles
+    environment:
+      ROOT_PASSWORD: qwerty
+      DATABASE: sistema_ventas_db
+      USER: admin
+      PASSWORD: admin
+
+  sistema_ventas_back:
+    build:
+      context: .
+      dockerfile: ./sistema_ventas_back
+    image: node:18.17.1-alpine
+    container_name: sistema_ventas_back
+    ports:
+      - 8080:3000
+    depends_on:
+      - mysql_db
+
+  sistema_ventas_front:
+    build:
+      context: ./frontend
+      dockerfile: ./angular
+    image: nginx:latest
+    container_name: sistema_ventas_front
+    ports:
+      - 80:80
+    depends_on:
+      - sistema_ventas_back
+    volumes:
+      - /temp
